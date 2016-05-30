@@ -82,7 +82,7 @@
         <item>
           <name>SSL_METHOD_SSLV23</name>
           <description>
-           Permit the use of SSLv2 and v3.
+           Permit the use of all the supported (SSLv2, SSLv3, TLSv1, TLSv1_1 and TLSv1_2) protocols.
           </description>
         </item>
         <item>
@@ -112,7 +112,7 @@
         <item>
           <name>SSL_METHOD_ALL</name>
           <description>
-           Permit the use of all the supported (SSLv2, SSLv3, and TLSv1) protocols.
+           Permit the use of all the supported (SSLv2, SSLv3, TLSv1, TLSv1_1 and TLSv1_2) protocols.
           </description>
         </item>
       </enum>
